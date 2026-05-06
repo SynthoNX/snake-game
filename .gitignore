@@ -1,0 +1,10 @@
+# Executables
+*.exe
+a.out
+
+# Private Notes
+INTERNAL_NOTES.md
+
+# OS files
+.DS_Store
+Thumbs.db
