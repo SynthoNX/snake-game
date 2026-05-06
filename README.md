@@ -20,16 +20,22 @@ A simple implementation of the classic Snake game for the Windows console, writt
 ### Prerequisites
 - GCC Compiler (MinGW for Windows)
 
-### Compilation
+### Installation & Build
 
-To compile the game, run:
-```bash
-gcc snake.c -o snake.exe
-```
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/SynthoNX/snake-game.git
+   cd snake-game
+   ```
+
+2. **Compile the program:**
+   ```bash
+   gcc snake.c -o snake.exe
+   ```
 
 ### How to Play
 
-Run the executable:
+To start the game, run the compiled executable:
 ```bash
 ./snake.exe
 ```
@@ -45,7 +51,7 @@ Run the executable:
 
 ```text
 .
-├── snake.c         # Source code
+├── snake.c         # Source code and logic
 ├── README.md       # Project documentation
 └── .gitignore      # Git exclusion rules
 ```
